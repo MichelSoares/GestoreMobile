@@ -18,8 +18,6 @@ public class TelaSplash extends AppCompatActivity implements Runnable {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tela_splash);
-        Toast.makeText(this, "Aguarde o carregamento da aplicação", Toast.LENGTH_SHORT).show();
-
         Handler h = new Handler();
         h.postDelayed(this, DELAY);
 
