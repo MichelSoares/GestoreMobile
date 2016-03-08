@@ -37,6 +37,13 @@
         android:text="ENTRAR"
         android:layout_below="@+id/et_senha"/>
 
+    <Button
+        android:id="@+id/btTestaWS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TESTA WEB SERVICE"
+        android:layout_below="@id/btLoginEntrar"/>
+
 
 
 </RelativeLayout>
